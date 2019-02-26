@@ -3,7 +3,7 @@
 var friendList = [
 {
     "name":"Ahmed",
-    "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+    "photo":"https://1source.basspro.com/images/stories/largemouth%20bass%20on%20scale.jpg",
     "scores":[
         5,
         1,
