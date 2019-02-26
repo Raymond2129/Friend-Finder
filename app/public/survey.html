@@ -175,7 +175,7 @@ $(document).ready(function() {
             //creates a new friend from the values submitted
             var newFriend = {
                 name: $('#name').val().trim(),
-                profilePic: $('#photo').val().trim(),
+                photo: $('#photo').val().trim(),
                 scores: [
                     $('#q1').val(),
                     $('#q2').val(),
@@ -195,7 +195,7 @@ $(document).ready(function() {
             $.post(currentURL + "/api/friends", newFriend, function(data) {
                 //Grab the result from the AJAX post so that the best match's name and photo are displayed.
                 $("#matchName").text(data.name);
-                $("#matchPic").attr("src", data.profilePic);
+                $("#matchPic").attr("src", data.photo);
             });
             // Show the modal with the best match
                 $('.modal').modal();

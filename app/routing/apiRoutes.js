@@ -1,5 +1,5 @@
 // Your `apiRoutes.js` file should contain two routes:
-var friendList = require('../data/friend.js');
+var friendList = require('../data/friends.js');
 
 module.exports = function(app){
   //a GET route that displays JSON of all possible friends
@@ -11,7 +11,6 @@ module.exports = function(app){
     //grabs the new friend's scores to compare with friends in friendList array
     var newFriendScores = req.body.scores;
     var scoresArray = [];
-    var friendCount = 0;
     var bestMatch = 0;
 
     //runs through all current friends in list
@@ -34,8 +33,8 @@ module.exports = function(app){
     }
 
     //return bestMatch data
-    var bff = friendList[bestMatch];
-    res.json(bff);
+    var bestFriend = friendList[bestMatch];
+    res.json(bestFriend);
 
     //pushes new submission into the friendsList array
     friendList.push(req.body);
