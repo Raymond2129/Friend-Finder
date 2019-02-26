@@ -12,11 +12,17 @@ var PORT = process.env.PORT || 3000;
 require('./app/routing/apiRoutes.js')(app);
 require('./app/routing/htmlRoutes.js')(app);
 
+
+// Add the application routes
+require(path.join(__dirname, './app/routing/apiRoutes'))(app);
+require(path.join(__dirname, './app/routing/htmlRoutes'))(app);
+
 //need to setup the express app to handle the data parsing
 app.use(bodyParser.json());
+app.use(express.static('./app/public'));
 app.use(bodyParser.urlencoded({ extended: true}));
 app.use(bodyParser.text());
-app.use(bodyParser.json({ type: 'application/vnd.api+json'}));
+//app.use(bodyParser.json({ type: 'application/vnd.api+json'}));
 
 //App port to listen on locally
 app.listen(PORT, function() {
