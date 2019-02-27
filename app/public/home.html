@@ -1,33 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-<html>
 <head>
-  <meta charset="UTF-8">
-  <!-- materialize -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
-  <!-- materialize icons -->
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <!--Let browser know website is optimized for mobile-->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <!-- jQuery -->
-    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
-    <!-- Compiled and minified JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
-  <title>Friend Finder</title>
+	<meta charset="UTF-8">
+	<title>Friend Finder</title>
+
+	<!-- Latest compiled and minified CSS & JS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+	<!-- Font Awesome Glyphicons -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+
 </head>
 <body>
-  <div class='container'>
-    <div class='card-panel blue lighten-2 col s12'>
-      <section class='center-align'>
-      <h1><i class="medium material-icons">face</i> Friend Finder</h1>
-      <h4>Take a few moments to meet your new best friend!!</h4><br>
-      <a href='/survey' class="waves-effect waves-light btn cyan lighten-1"><i class="material-icons left">comment</i>Take Survey</a>
-      </section>
-    </div>
-    <div class='col s4'>
-      <p><a href='/api/friends'>API Friends List</a> | <a href='https://github.com/Raymond2129/Friend-Finder' target= '_blank'>GitHub Repo</a></p>
-    </div>
-  </div>
 
+	<div class="container">
+		
+		<div class="jumbotron">
+			<h1 class=""><i class="fa fa-facebook-square" aria-hidden="true"></i> Friend Finder</h1>
+			<hr>
+			<h2 class="">Answer a few basic questions. </h2>
+			<h2 class="">Then find the friend with the greatest compatibility!</h2>
+			<br>
+
+			<div class="">
+				<a href="/survey"><button type="button" class="btn btn-lg btn-primary"><h4><span class="glyphicon glyphicon-list-alt"></span> Go to Survey</h4></button></a>	
+			</div>
+
+		</div>
+
+	    <footer class="footer">
+	      <div class="container">
+		        <p><a href="/api/friends">API Friends List</a> | <a href="https://github.com/Raymond2129/Friend-Finder">GitHub Repo</a></p>
+	      </div>
+	    </footer>
+
+	</div>
+
+	
 </body>
 </html>
