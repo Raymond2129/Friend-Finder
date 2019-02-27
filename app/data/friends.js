@@ -7,7 +7,7 @@
 var userData = [
   {
     "name": "Ahmed",
-    "photo": "https://avatars0.githubusercontent.com/u/1561825?v=3&s=460",
+    "photo": "https://i.ytimg.com/vi/co-dorhinoo/maxresdefault.jpg",
     "scores":[
         5,
       	1,
@@ -23,7 +23,7 @@ var userData = [
   },
   {
     "name": "Joe",
-    "photo": "https://avatars0.githubusercontent.com/u/1561825?v=3&s=460",
+    "photo": "http://realitypod.com/wp-content/uploads/2014/09/dog-acting-like-human-9.png",
     "scores":[
         3,
         2,
@@ -38,18 +38,18 @@ var userData = [
     ]
   },
   {
-    "name": "Jane",
-    "photo": "https://avatars0.githubusercontent.com/u/1561825?v=3&s=460",
+    "name": "Ray Province",
+    "photo": "https://avatars3.githubusercontent.com/u/42592534?s=460&v=4",
     "scores":[
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
+        5,
+        2,
+        5,
+        5,
+        4,
+        5,
+        5,
+        5,
+        4,
         1
     ]
   }
