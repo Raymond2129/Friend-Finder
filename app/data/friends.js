@@ -22,22 +22,6 @@ var userData = [
     ]
   },
   {
-    "name": "Joe",
-    "photo": "http://realitypod.com/wp-content/uploads/2014/09/dog-acting-like-human-9.png",
-    "scores":[
-        3,
-        2,
-        2,
-        4,
-        1,
-        1,
-        5,
-        1,
-        3,
-        1
-    ]
-  },
-  {
     "name": "Ray Province",
     "photo": "https://avatars3.githubusercontent.com/u/42592534?s=460&v=4",
     "scores":[
